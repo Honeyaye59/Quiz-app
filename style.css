@@ -1,0 +1,116 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #92d4e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+} */
+/* Quiz Container */
+/* .quiz-container{
+    width: 30%;
+    background-color: aqua;
+    
+} */
+/* Question Container with Image */
+/* .question-container{
+    padding: 30px 0;
+    width: 100px;
+    height: 100px;
+   
+    
+}
+.question-container img{
+    display: block;
+    text-align: center;
+    margin: auto 0;
+    width: 100%;
+} */
+/* Question Lists */
+/* .question-list ul{
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+/* Submit Button */
+/* #submitBtn{
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#submitBtn:hover{
+    background-color: #92d4e2;
+    
+}  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Container of Quiz */
+
+.quiz-container{
+    /* width: 200px; */
+    
+    
+       
+    
+}
+
+/* Image container */
+.question-container{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.question-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Question List */
+.question-list{
+    
+}
+.question-list ul{
+    list-style-type: none;
+}
+.question-list ul li{
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+/* Submit Button */
+button{
+    padding: 10px 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: block;
+}
+button:hover{
+    background-color: aquamarine;
+    outline: none;
+}
